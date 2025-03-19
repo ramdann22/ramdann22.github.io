@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDAM Kota XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="pakuan.png" alt="Logo PDAM Kota bogor">
+        <span>PDAM Kota bogor</span>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#tarif">Tarif</a></li>
+                <li><a href="#cek-tagihan">Cek Tagihan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Selamat Datang di PDAM Kota bogor</h1>
+        <p>Menyediakan layanan air bersih untuk masyarakat</p>
+        <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>PDAM Kota kota bogor bertugas menyediakan air bersih berkualitas bagi masyarakat.</p>
+        <h3>Visi & Misi</h3>
+        <p>Menjadi perusahaan penyedia air terbaik dengan layanan prima.</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <div class="service">
+            <h3>Pemasangan Baru</h3>
+            <p>Daftar pemasangan air PDAM dengan mudah.</p>
+        </div>
+        <div class="service">
+            <h3>Perbaikan & Pengaduan</h3>
+            <p>Laporkan gangguan atau kebocoran dengan cepat.</p>
+        </div>
+    </section>
+
+    <section id="tarif">
+        <h2>Tarif Air</h2>
+        <p>Berikut adalah daftar tarif pemakaian air:</p>
+        <table>
+            <tr>
+                <th>Golongan</th>
+                <th>Tarif per m³</th>
+            </tr>
+            <tr>
+                <td>Rumah Tangga</td>
+                <td>Rp 3.000</td>
+            </tr>
+            <tr>
+                <td>Niaga</td>
+                <td>Rp 5.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="cek-tagihan">
+        <h2>Cek Tagihan Air</h2>
+        <form id="tagihan-form">
+            <input type="text" id="nomor-pelanggan" placeholder="Masukkan Nomor Pelanggan" required>
+            <button type="submit">Cek Tagihan</button>
+        </form>
+        <p id="tagihan-hasil"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PDAM Kota bogor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
